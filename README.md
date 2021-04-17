@@ -47,3 +47,143 @@ int main() {
     cout << "Masukkan Volume : ";
 
     cin >> Volume;
+    
+    if (KodeBuku == 'A') {
+
+        Judul_Komik = "Boku No Hero Academia";
+
+        if (Volume == 1) {
+
+            harga = 25000;
+
+        }
+
+        else if (Volume == 2) {
+
+            harga = 27000;
+
+        }
+
+        else if (Volume == 3) {
+
+            harga = 30000;
+
+        }
+        else if (Volume == 4) {
+            
+            harga = 33000;
+        }
+        else {
+
+            harga = 0;
+            cout << "Masukkan Kode Dengan Benar" << endl;
+        }
+    }
+
+    else if (KodeBuku == 'B') {
+
+        Judul_Komik = "Jujutsu Kaisen";
+
+        if (Volume == 1) {
+
+            harga = 28000;
+
+        }
+
+        else if (Volume == 2) {
+
+            harga = 29000;
+
+        }
+
+        else if (Volume == 3) {
+
+            harga = 31000;
+
+        }
+        else if (Volume == 4) {
+
+            harga = 34000;
+        }
+        else {
+
+            harga = 0;
+            cout << "Masukkan Kode Dengan Benar" << endl;
+        }
+    }
+
+    else if (KodeBuku == 'C') {
+
+        Judul_Komik = "Doctor Stone";
+
+        if (Volume == 1) {
+
+            harga = 30000;
+
+        }
+
+        else if (Volume == 2) {
+
+            harga = 32000;
+
+        }
+
+        else if (Volume == 3) {
+
+            harga = 34000;
+
+        }
+        else if (Volume == 4) {
+
+            harga = 36000;
+        }
+        else {
+
+            harga = 0;
+            cout << "Masukkan Kode Dengan Benar" << endl;
+        }
+    }
+
+    else if (KodeBuku == 'D') {
+
+        Judul_Komik = "Attack On Titan";
+
+        if (Volume == 1) {
+
+            harga = 30000;
+
+        }
+
+        else if (Volume == 2) {
+
+            harga = 32000;
+
+        }
+
+        else if (Volume == 3) {
+
+            harga = 35000;
+
+        }
+        else if (Volume == 4) {
+
+            harga = 37000;
+        }
+        else {
+
+            harga = 0;
+            cout << "Masukkan Kode Volume Dengan Benar" << endl;
+        }
+    }
+
+    
+
+    else {
+
+        Judul_Komik = "Error";
+        harga = 0;
+
+
+    }
+    
+
