@@ -1,5 +1,3 @@
-# PRAK_DKP_FANGKI-IGO-PRAMANA_KELOMPOK-43
-
 #include <iostream>  
 
 using namespace std;
