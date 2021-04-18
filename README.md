@@ -185,5 +185,83 @@ int main() {
 
 
     }
+    switch (Volume) {
+    case 1:
+        cout << "\n\nJudul Komik  = " << Judul_Komik;
+
+        cout << "\nVolume = " << Volume;
+
+        cout << "\nHarga Komik  = " << harga;
+        break;
+
+    case 2:
+        cout << "\n\nJudul Komik  = " << Judul_Komik;
+
+        cout << "\nVolume = " << Volume;
+
+        cout << "\nHarga Komik  = " << harga;
+        break;
+
+    case 3:
+        cout << "\n\nJudul Komik  = " << Judul_Komik;
+
+        cout << "\nVolume = " << Volume;
+
+        cout << "\nHarga Komik  = " << harga;
+        break;
+
+    case 4:
+        cout << "\n\nJudul Komik  = " << Judul_Komik;
+
+        cout << "\nVolume = " << Volume;
+
+        cout << "\nHarga Komik  = " << harga;
+        break;
+
+    case 5:
+        cout << "\n\nJudul Komik  = " << Judul_Komik;
+
+        cout << "\nVolume = " << Volume;
+
+        cout << "\nHarga Komik  = " << harga;
+        break;
+    default:
+        cout << Judul_Komik << endl;
+        cout << "\n== Kami tidak mempunyai komik ini ==";
+
+
+    }
+
+    printf("\n\n");
+    cout << "Apakah anda ingin membeli komik lagi?: (Ya) (Tidak) ";
+
+    cin >> pernyataan;
+    printf("\n\n");
+
+    if (pernyataan == "Ya") {
+        main();
+    }
+    else if (pernyataan == "Tidak") {
+        cout << "Masukkan Jumlah komik yang anda beli: ";
+        cin >> i;
+        printf("\n\n");
+        while (i > 0) {
+            cout << "Pembelian Komik Anda yang Ke " << i << " Berhasil Dilakukan"" \n";
+            i--;
+        }         
+
+        printf("\n\n");
+        cout << "Terima Kasih sudah berbelanja di toko kami" << endl;
+        printf("\n\n");
+        opening();
+    }
+    else {
+        cout << "Tolong Masukkan kata yang sesuai, terima kasih" << endl;
+        printf("\n\n");
+        main();
+    }
+   
+    return 0;
+}
     
 
