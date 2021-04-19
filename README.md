@@ -18,6 +18,13 @@ void Kelompok() {
     cout << "Nama: Fangki Igo Pramana NIM: 21120120130088" << endl;
     cout << "Nama: Bainingtyas Khalifa Nurharyanti NIM: 21120120140111" << endl;
 }
+class kasirKu{
+public:
+	void kasir(string nama){
+		cout<<"Salam Hangat,\n Kasir: "<< nama;
+	}
+};
+
 
 
 
@@ -260,7 +267,10 @@ int main() {
         printf("\n\n");
         main();
     }
-   
+    kasirKu myObj;
+   	myObj.kasir("Susi Setiawati");
+
+      
     return 0;
 }
     
